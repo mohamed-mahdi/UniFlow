@@ -1,0 +1,112 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1f4d7a, #3a7bd5);
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* Main content */
+main {
+  padding: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Sections */
+section {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Section titles */
+section h2 {
+  margin-bottom: 10px;
+  color: #1f4d7a;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Links */
+a {
+  color: #3a7bd5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons (optional if you add later) */
+button {
+  background-color: #3a7bd5;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2f63b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #ddd;
+  margin-top: 20px;
+  font-size: 14px;
+}
