@@ -13,7 +13,7 @@ UniFlow is an open-source student productivity platform designed to help univers
 - Assignment tracking
 - Related files organization
 - Announcements and reminders
-- Notification system kfpodvkveomfoeofodpgifk
+- Notification system
 
 ## Project Status
 Early Development / Phase 1
